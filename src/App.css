@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 250px;
+  background-color: aquamarine;
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar h1 {
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.category-btn {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.category-btn button {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.category-btn button:hover {
+  background-color: rgb(66, 122, 175);
+}
+
+.searchbar {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.searchbar input {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  height: 40px;
+  outline: none;
+}
+
+.searchbar button {
+  width: 70px;
+  border-radius: 7px;
+  border: none;
+  font-size: 18px;
+  height: 40px;
+  font-weight: 200;
+  background-color: rgb(129, 201, 248);
+  cursor: pointer;
+}
+
+.searchbar button:hover {
+  background-color: rgb(196, 156, 84);
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background-color: aquamarine;
+}
+
+.card {
+  width: 280px;
+  height: 360px;
+  box-shadow: 3px 4px 8px black;
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: white;
+}
+
+.card img {
+  width: 280px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card p {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+
+.card p:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.card button {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(25, 0, 255);
+  margin-left: 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: white;
+  background-color: rgb(88, 88, 216);
+}
